@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #af7304;
+    width:50%;
+    border-bottom: #503502 solid 1px;
+}
+h3{
+    color: #754d03;
+    font-size: 40px;
+}
+li{
+    font-size: 15px;
+    color: #503502;
+    margin: 5px;
+
+}
+li:first-letter{
+    font-size: 20px;
+}
+
+li:hover{
+   color: #da9108;
+    font-size: 20px;
+
+}
